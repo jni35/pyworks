@@ -3,8 +3,8 @@
 x=10
 y=-10
 
-print(x>0)
-print(y>0)
+print(x>0)  #TRUE
+print(y>0)  #FALSE
 print()
 
 print(x==10)
