@@ -23,7 +23,7 @@ print()
 sum_v = 0
 for i in range(1,11):
     sum_v += i
-    print("i = ",i,",sum_v = ", sum_v)
+    print("i = ", i, ",sum_v = ", sum_v)
 
 print("sum = ", sum_v)
 
