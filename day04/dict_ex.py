@@ -2,7 +2,7 @@
 # 키(key)와 값(value)의 쌍
 person = {}     #빈 딕셔너리
 person["name"] = '한국인'
-person["age"] = '27'
+person["age"] = 27
 person["phone"] = '010-1234-5678'
 print(person)
 
