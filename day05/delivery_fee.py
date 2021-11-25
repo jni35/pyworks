@@ -2,7 +2,7 @@
 # 상품 가격이 20000원 미만이면 배송비(2500원) 포함하고
 # 아니면 배송비 미포함
 def get_price(unit_price, quantity): #단위당 가격, 수량
-    delivery_fee = 2500
+    delivery_fee = 2500     # 배송비
     price = unit_price*quantity #(주문 상품가격 = 해당 제품 * 수량)
     #배송비 포함 작성
     if price < 20000:
