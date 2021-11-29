@@ -11,15 +11,15 @@ def polygon2(n, d):  # d - 거리
         t.forward(d)
         t.left(360/n)
 
-polygon(3)
-polygon(5)
+polygon(3)  # 삼각형 실행
+polygon(5)  # 오각형 실행
 
-t.up()          #선 올리기
+t.up()          # 선 올리기
 t.forward(100)
-t.down()        #선 내리기
+t.down()        # 선 내리기
 
-polygon2(3,100)
-polygon2(5,100)
+polygon2(3, 100)
+polygon2(5, 100)
 
 
 
