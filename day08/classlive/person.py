@@ -11,7 +11,7 @@ class Person:
     def setname(self, name):    # 이름을 입력하는 함수
         self._name = name
 
-    def gatname(self):          # 이름을 가져오는 함수
+    def getname(self):          # 이름을 가져오는 함수
         return self._name
 
     def setage(self, age):
@@ -22,4 +22,8 @@ class Person:
 
 p1 = Person()
 p1.setname("김하늘")
-print(p1.gatname)
+print(p1.getname())
+
+p2 = Person()
+p2.setname("김두울")
+print(p2.getname())
