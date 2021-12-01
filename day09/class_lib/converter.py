@@ -1,6 +1,6 @@
 # converter 클래스 정의
 # 온도 변환기 : 화씨온도(f) = 섭씨온도(c) * 1.8 + 32
-from day09.class_live.scaleconverter import ScaleConverter
+from day09.class_lib.scaleconverter import ScaleConverter
 
 class Converter(ScaleConverter):        #ScaleConverter 상속
     def __init__(self, units_from, units_to, factor, offset):

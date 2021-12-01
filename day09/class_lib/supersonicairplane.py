@@ -1,6 +1,6 @@
 # supersonicairplane 클래스 정의
 
-from day09.class_live.airplane import AirPlane
+from day09.class_lib.airplane import AirPlane
 
 class SuperSonicAirPlane(AirPlane):
     NORMAL = 1      #클래스 상수(대문자로 표기)

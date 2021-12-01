@@ -1,10 +1,10 @@
-from day09.class_live.customer import Customer
-from day09.class_live.gold_customer import GoldCustomer
-from day09.class_live.vip_customer import VipCustomer
+from day09.class_lib.customer import Customer
+from day09.class_lib.gold_customer import GoldCustomer
+from day09.class_lib.vip_customer import VipCustomer
 
 c = Customer(101, "놀부")               # Customer 객체 생성
 g = GoldCustomer(201, "흥부")           # GoldCustomer 객체 생성
-v = VipCustomer(301, "심청", 1004)      # VipCustomer 객체 생성
+v = VIPCustomer(301, "심청", 1004)      # VipCustomer 객체 생성
 
 #제품 구매
 cost_c = c.calc_price(10000)
