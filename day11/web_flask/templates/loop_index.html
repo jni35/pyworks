@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loop_index 예제</title>
+</head>
+<body>
+    <h3>for문 - loop.index예제</h3>
+    <ul>
+        {% for item in items%}
+        <li>
+            {{ loop.index }}번 요소 - {{ item }}
+        </li>
+        {% endfor %}
+    </ul>
+
+    <ul>
+        {% for item in items %}
+            {% if loop.index < 3 %}
+            <li>{{loop.index}}번째 줄입니다.</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+</html>

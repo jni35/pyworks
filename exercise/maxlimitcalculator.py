@@ -1,5 +1,5 @@
 #2
-from ex.calculator import Calculator
+from exercise.calculator import Calculator
 
 class MaxLimitCalculator(Calculator):
     def add(self, val):
