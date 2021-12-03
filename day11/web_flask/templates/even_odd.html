@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+    <h2>짝수/홀수 판별</h2>
+    <form action="" method="post">
+        {% if error_message%}
+        <p>{{error_message}}</p>
+        {% endif %}
+        <p>
+            <label>숫자 입력 : </label>
+            <input type="text" name="num">
+        </p>
+        <input type="submit" value="전송">
+    </form>
+</body>
+</html>
