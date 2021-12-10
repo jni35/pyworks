@@ -37,7 +37,7 @@ def select_one():   #자료선택
     print(rs)
     conn.close()
 
-def update_emp():   #
+def update_emp():
     conn = getconn()
     cur = conn.cursor()
     sql = "UPDATE employee SET age=? WHERE emp_id=?"
